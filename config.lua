@@ -82,22 +82,6 @@ Config.Products = {
             type = "item",
             slot = 10,
         },
-        [11] = {
-            name = "lighter",
-            price = 2,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 11,
-        },
-        [12] = {
-            name = "rolling_paper",
-            price = 2,
-            amount = 5000,
-            info = {},
-            type = "item",
-            slot = 12,
-        },
     },
     ["hardware"] = {
         [1] = {
@@ -166,62 +150,46 @@ Config.Products = {
             slot = 8,
         },
         [9] = {
-            name = "firework1",
-            price = 50,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 9,
-        },
-        [10] = {
-            name = "firework2",
-            price = 50,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 10,
-        },
-        [11] = {
-            name = "firework3",
-            price = 50,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 11,
-        },
-        [12] = {
-            name = "firework4",
-            price = 50,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 12,
-        },
-        [13] = {
             name = "fitbit",
             price = 400,
             amount = 150,
             info = {},
             type = "item",
-            slot = 13,
+            slot = 9,
         },
-        [14] = {
+        [10] = {
             name = "cleaningkit",
             price = 150,
             amount = 150,
             info = {},
             type = "item",
-            slot = 14,
+            slot = 10,
         },
-        [15] = {
+        [11] = {
             name = "advancedrepairkit",
             price = 500,
             amount = 50,
             info = {},
             type = "item",
-            slot = 15,
+            slot = 11,
             requiredJob = { "mechanic" }
-        },        
+        },
+        [12] = {
+            name = "plasticjerrycan",
+            price = 5,
+            amount = 150,
+            info = {},
+            type = "item",
+            slot = 12,
+        },
+        [13] = {
+            name = "trowel",
+            price = 20,
+            amount = 150,
+            info = {},
+            type = "item",
+            slot = 13,
+        },
     },
     ["weedshop"] = {
         [1] = {
@@ -353,30 +321,12 @@ Config.Products = {
             requiresLicense = true
         },
         [5] = {
-            name = "weapon_snspistol",
-            price = 1500,
-            amount = 5,
-            info = {},
-            type = "item",
-            slot = 5,
-            requiresLicense = true
-        },
-        [6] = {
-            name = "weapon_vintagepistol",
-            price = 4000,
-            amount = 5,
-            info = {},
-            type = "item",
-            slot = 6,
-            requiresLicense = true
-        },
-        [7] = {
             name = "pistol_ammo",
             price = 250,
             amount = 250,
             info = {},
             type = "item",
-            slot = 7,
+            slot = 5,
             requiresLicense = true
         },
     },
@@ -397,16 +347,6 @@ Config.Products = {
             type = "item",
             slot = 2,
         },
-    },
-    ["casino"] = {
-        [1] = {
-            name = 'casinochips',
-            price = 1,
-            amount = 999999,
-            info = {},
-            type = 'item',
-            slot = 1,
-        }
     },
 }
 
