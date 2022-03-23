@@ -82,22 +82,6 @@ Config.Products = {
             type = "item",
             slot = 10,
         },
-        [11] = {
-            name = "lighter",
-            price = 2,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 11,
-        },
-        [12] = {
-            name = "rolling_paper",
-            price = 2,
-            amount = 5000,
-            info = {},
-            type = "item",
-            slot = 12,
-        },
     },
     ["hardware"] = {
         [1] = {
@@ -269,30 +253,12 @@ Config.Products = {
             requiresLicense = true
         },
         [5] = {
-            name = "weapon_snspistol",
-            price = 1500,
-            amount = 5,
-            info = {},
-            type = "item",
-            slot = 5,
-            requiresLicense = true
-        },
-        [6] = {
-            name = "weapon_vintagepistol",
-            price = 4000,
-            amount = 5,
-            info = {},
-            type = "item",
-            slot = 6,
-            requiresLicense = true
-        },
-        [7] = {
             name = "pistol_ammo",
             price = 250,
             amount = 250,
             info = {},
             type = "item",
-            slot = 7,
+            slot = 5,
             requiresLicense = true
         },
     },
